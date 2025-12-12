@@ -1,0 +1,64 @@
+body {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+/* unvisited link */
+a:link {
+}
+
+/* visited link 
+a:visited {
+  color: green;
+}
+
+/* mouse over link 
+a:hover {
+  color: hotpink;
+}
+
+/* selected link 
+a:active {
+  color: blue;
+} */
+
+#occupation {
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+#name {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+#personal-description {
+  font-size: 19px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+#subheading-1 {
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+#subheading-2 {
+  font-weight: normal;
+  font-size: 22px;
+  text-decoration: underline;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 500px;
+  margin-right: 500px;
+}
