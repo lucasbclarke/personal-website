@@ -23,4 +23,4 @@ by downloading the server.jar file from the minecraft website and then running i
 was much more to compute for such an old server. However, I was still able to connect through the local and remote networks and play as if it were any other survival server despite
 the limitations in performance.
 
-14.12.25 - 00:00 AEST
+14.12.25 - 08:42 AEST
