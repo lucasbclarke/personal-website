@@ -1,76 +1,115 @@
+/* General body styles for desktop (default) */
 body {
-  margin-right: 0px;
-  margin-left: 0px;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
+/* Header and subheading styles for desktop (default) */
 h1 {
     color: #FFFFFF;
 }
 
-/* unvisited link */
-a:link {
-}
-
-/* visited link 
-a:visited {
-  color: green;
-}
-
-/* mouse over link 
-a:hover {
-  color: hotpink;
-}
-
-/* selected link 
-a:active {
-  color: blue;
-} */
-
-#occupation {
-    margin-top: 0;
-    margin-bottom: 20px;
+/* Keep these fixed margins for larger screens */
+#occupation,
+#name,
+#personal-description,
+#subheading-1,
+#subheading-2,
+#blog-text {
     margin-left: 500px;
     margin-right: 500px;
+    width: auto;  /* Keep elements the default width for large screens */
 }
 
-#name {
-  margin-top: 10px;
-  margin-bottom: 0px;
-  margin-left: 500px;
-  margin-right: 500px;
-}
-
-#personal-description {
-  font-size: 19px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 500px;
-  margin-right: 500px;
-  height: 100px;
-}
-
+/* Subheading and blog text styles */
 #subheading-1 {
-  margin-left: 500px;
-  margin-right: 500px;
-  background-color: #393939;
-  color: #FFFFFF;
-  margin-top: 0px;
+    background-color: #393939;
+    color: #FFFFFF;
+    margin-top: 0px;
 }
 
 #subheading-2 {
-  font-weight: normal;
-  font-size: 22px;
-  text-decoration: underline;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 500px;
-  margin-right: 500px;
+    font-weight: normal;
+    font-size: 22px;
+    text-decoration: underline;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #blog-text {
-  font-weight: normal;
-  font-size: 24px;
-  user-select: text;
-  margin-left: 500px;
-  margin-right: 500px;
+    font-weight: normal;
+    font-size: 24px;
+    user-select: text;
+}
+
+/* Contact links styling */
+#contact-links {
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 20px;
+}
+
+#contact-links a {
+    font-size: 19px;
+}
+
+#contact-links a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile-specific styles (only for screens smaller than 768px) */
+@media screen and (max-width: 768px) {
+    /* Center the text with some padding on mobile */
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    /* Adjust margin and width for mobile */
+    #occupation,
+    #name,
+    #personal-description,
+    #subheading-1,
+    #subheading-2,
+    #blog-text {
+        width: 100%;  /* Make elements take full width on mobile */
+        margin-left: 10px;  /* Reduce margin to fit content */
+        margin-right: 10px;  /* Add some margin to prevent text from touching the edges */
+    }
+
+    /* Reduce font size for mobile */
+    #personal-description {
+        font-size: 16px;
+    }
+
+    #subheading-2 {
+        font-size: 18px;  /* Slightly smaller on mobile */
+    }
+
+    #blog-text {
+        font-size: 20px;  /* Slightly smaller on mobile */
+    }
+
+    /* Remove large margins on mobile */
+    #occupation,
+    #name,
+    #personal-description,
+    #subheading-1,
+    #subheading-2,
+    #blog-text,
+    #contact-links {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* Contact links mobile styling */
+    #contact-links {
+        margin-bottom: 15px;
+    }
+
+    #contact-links a {
+        display: inline;
+        font-size: 19px;
+    }
 }
