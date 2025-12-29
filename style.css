@@ -66,16 +66,16 @@ h1 {
         padding: 10px;
     }
 
-    /* Adjust margin and width for mobile */
+    /* Remove large margins and adjust width for mobile */
     #occupation,
     #name,
     #personal-description,
     #subheading-1,
     #subheading-2,
     #blog-text {
-        width: 100%;  /* Make elements take full width on mobile */
-        margin-left: 10px;  /* Reduce margin to fit content */
-        margin-right: 10px;  /* Add some margin to prevent text from touching the edges */
+        width: calc(100% - 20px);  /* Make elements take full width minus padding */
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     /* Reduce font size for mobile */
@@ -91,20 +91,10 @@ h1 {
         font-size: 20px;  /* Slightly smaller on mobile */
     }
 
-    /* Remove large margins on mobile */
-    #occupation,
-    #name,
-    #personal-description,
-    #subheading-1,
-    #subheading-2,
-    #blog-text,
-    #contact-links {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
     /* Contact links mobile styling */
     #contact-links {
+        margin-left: 10px;
+        margin-right: 10px;
         margin-bottom: 15px;
     }
 
