@@ -24,4 +24,4 @@ Originally when starting this project I was concerned that all of the traffic on
 however that this was not the case, and I have seen no noticeable drop in network performance, from any device connected to the network. And despite the machine being at least 16 years
 old, it has been able to keep up with the traffic of my home network.
 
-14.12.25 - 09:00 AEST
+14.12.25 - 09:00 AM AEST
