@@ -23,6 +23,13 @@ h1 {
     margin-top: 0px;
     margin-left: 500px;
     margin-right: 500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 #subheading-2 {
@@ -33,6 +40,22 @@ h1 {
     margin-bottom: 0;
     margin-left: 500px;
     margin-right: 500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+}
+
+#subheading-accordian {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    transition: 0.4s;
 }
 
 #blog-text {
