@@ -74,6 +74,15 @@ h1 {
     font-size: 19px;
 }
 
+#paragraph-break {
+    margin-left: 500px;
+    margin-right: 500px;
+    height: 2px;
+    border: none;
+    color: #000000;  
+    background-color: #000000;
+}
+
 @media screen and (max-width: 1280px) {
     /* Center the text with some padding on mobile */
     body {
@@ -87,6 +96,7 @@ h1 {
     #personal-description,
     #subheading-1,
     #subheading-2,
+    #paragraph-break,
     #blog-text {
         width: calc(100% - 20px);  /* Make elements take full width minus padding */
         margin-left: 10px;
