@@ -19,6 +19,8 @@ h1 {
     margin-left: 500px;
     margin-right: 500px;
     width: 49%;
+    font-size: 19px;
+    text-align: justify;
 }
 
 /* Subheading and blog text styles */
@@ -67,6 +69,7 @@ h1 {
     font-weight: normal;
     font-size: 24px;
     user-select: text;
+    text-align: justify;
 }
 
 #contact-links {
