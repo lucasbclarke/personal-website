@@ -10,10 +10,15 @@ h1 {
 
 #occupation,
 #name,
-#personal-description,
 #blog-text {
     margin-left: 500px;
     margin-right: 500px;
+}
+
+#personal-description {
+    margin-left: 500px;
+    margin-right: 500px;
+    width: 49%;
 }
 
 /* Subheading and blog text styles */
